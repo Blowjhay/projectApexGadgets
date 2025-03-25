@@ -15,6 +15,7 @@ html{
 .genLayout1{
     margin: auto;
     max-width: 95%;
+    /* max-width: 1200px, */
 }
 
 nav{
@@ -356,6 +357,9 @@ nav{
 
 /* styling for section banner */
 
+#banner{
+    max-width: 100%;
+}
 .innerBanner{
     display: flex;
     flex-wrap: wrap;
