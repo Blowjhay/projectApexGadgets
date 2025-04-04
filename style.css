@@ -30,7 +30,7 @@ nav{
 } */
 
 .innerNav{
-    border: solid red;
+    /* border: solid red; */
     display: flex;
     justify-content: space-between;
 }
