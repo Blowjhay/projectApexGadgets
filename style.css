@@ -10,14 +10,15 @@
     /* background-color: rgba(233, 70, 70, 0.104) !important; */
 }
 
-/* .genLayout1{
+.genLayout1{
     max-width: 1200px;
     margin:  auto;
-} */
-.genLayout1{
+    /* border: red 2px solid; */
+}
+/* .genLayout1{
     max-width: min(1400px, 95%);
   margin: 0 auto;
-}
+} */
 
 nav{
     background-color: #000;
@@ -127,7 +128,6 @@ nav{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
 .innerHero{
@@ -139,7 +139,7 @@ nav{
     font-family: "Outfit", sans-serif;
     line-height: 24px;
     font-weight: 600;
-    width: 40%;
+    width: 50%;
     padding-block: 1.5rem;
 }
 .heroContents > h1{
@@ -147,8 +147,8 @@ nav{
     text-transform: uppercase;
     padding-top: .5rem;
     font-weight: 700;
-    width: 60%;
-    font-size: 2.5rem;
+    width: 70%;
+    font-size: 2rem;
 }
 .heroContents > h5{
     font-family: "Outfit", sans-serif;
@@ -167,7 +167,9 @@ nav{
 }
 
 /* styling for section category */
-
+/* #category{
+    border: rgb(219, 15, 25) solid;
+} */
 .innerCategory{
     margin: 10rem auto;
     max-width: 87%;
@@ -184,38 +186,43 @@ nav{
     padding-top: .5rem;
     font-weight: 700;
     /* width: 100%; */
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 .pStyle{
     font-weight: 500;
     text-align: center;
     font-family: "Outfit", sans-serif;
     line-height: 24px;
-    padding-block: 1rem 4rem;
-    width: 30%;
+    padding-block: .5rem 4rem;
+    width: 80%;
 }
 
 .categories{
     width: 100%;
     /* border: rgb(255, 0, 0) solid; */
     display: flex;
+    gap: 1.2rem;
     justify-content: space-between;
     align-items: center;
 }
 .cardStyle{
     /* border: red solid; */
-    width: 14rem;
-    height: 25rem;
+    width: 13rem;
+    height: 23rem;
     border-radius: 150px 150px;
     color: #fff;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    gap: 2rem;
+    gap: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.cardStyle h4 {
+    font-size: 1.3rem;
 }
 .categoryCard1{
     /* border: rgb(89, 0, 255) solid; */
@@ -228,12 +235,12 @@ nav{
 }
 .categoryCard3{
     border-radius: 150px 150px;
-    width: 16rem;
-    height: 29rem;
+    width: 15rem;
+    height: 27rem;
     border: #e1680b solid 6px;
     background-color: #db837f;
     background-image: url(./images/colorDust1.png);
-    gap: .1rem;
+    gap: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -241,8 +248,8 @@ nav{
 }
 .categoryCard3 > .categoryImage{
     margin-top: -1.5rem;
-    width: 24rem;
-    height: 16rem;
+    width: 22rem;
+    height: 14rem;
 }
 
 .categoryCard4{
@@ -258,8 +265,8 @@ nav{
     /* border: blue solid; */
     width: 16rem;
     height: 16rem;
-    width: 12rem;
-    height: 12rem;
+    width: 10rem;
+    height: 10rem;
 }
 .imageFit{
     width: 100%;
@@ -292,6 +299,12 @@ nav{
     gap: 2rem;
     text-transform: uppercase;
 }
+
+.productCat h4 {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
 .productCat h4:nth-child(1){
     color: #e1680b;
 }
@@ -306,7 +319,6 @@ nav{
     gap: 1.5rem;
 }
 
-
 .productCard{
     /* border: red solid 2px; */
     border: #e3e2e2 1.6px solid;
@@ -314,6 +326,7 @@ nav{
     width: 28rem;
     height: 34rem;
 }
+
 .productImage{
     /* border: rgb(0, 255, 81) solid 2px; */
     width: 100%;
@@ -322,6 +335,7 @@ nav{
     align-items: center;
     justify-content: center;
 }
+
 .productImage > img{
     width: 50%;
     height: 50%;
@@ -370,22 +384,24 @@ nav{
     max-width: 100%;
 } */
 .innerBanner{
-    display: flex;
-    flex-wrap: wrap;
     padding-inline: 32px;
-    /* display: grid; */
-    /* grid-template-columns: 1fr 1fr; */
+    /* border: red solid; */
+}
+
+.upInnerBanner {
+    /* border: solid blue; */
+    display: flex;
     gap: 1rem;
     justify-content: space-between;
-    /* border: red solid; */
 }
 
 .banner1{
     background: linear-gradient( #f3f3f3 60%, #2c2c2c 40%);
     position: relative;
+    top: 0;
     padding: 2rem 0 0 2rem;
-    /* border: rgb(43, 0, 255) solid; */
-    width: 44.5rem;
+    /* border: rgb(43, 0, 255) solid;  */
+    width: 50%;
     height: 30rem;
 }
 .banner2{
@@ -393,7 +409,7 @@ nav{
     position: relative;
     padding: 2rem 0 0 2rem;
     /* border: rgb(43, 0, 255) solid; */
-    width: 44.5rem;
+    width: 50%;
     height: 30rem;
 }
 .banner3{
@@ -406,6 +422,9 @@ nav{
     height: 30rem;
 }
 
+.coupon h5:nth-child(2) {
+    margin-top: -.5rem;
+}
 .ban > h4{
     font-family: "Outfit", sans-serif;
     color: #ce7407;
@@ -414,7 +433,7 @@ nav{
 }
 .ban > h2{
     width: 50%;
-    padding-block: 2rem 3.5rem;
+    padding-block: 2rem 2rem;
 }
 .ban > h5{
     font-family: "Outfit", sans-serif;
@@ -425,9 +444,9 @@ nav{
     border: #e3dede 2.3px solid;
     background: #f3f3f3;
     position: absolute;
-    bottom: 0;
-    margin-left: 24rem;
-    margin-bottom: 2rem;
+    top: 0;
+    margin-left: 17rem;
+    margin-top: 6rem;
     /* border: green solid; */
     width: 18rem;
     height: 18rem;
@@ -474,6 +493,7 @@ nav{
 }
 
 .innerBrand p {
+    /* border: red solid 2px; */
     width: 40rem;
 }
 
@@ -481,14 +501,16 @@ nav{
     display: flex;
     justify-content: space-between;
     gap: 1rem;
+    /* border: solid red 2px; */
+    width: 100%;
 }
 
 .brandCard{
     /* border: red solid 2px; */
     /* border: #e3e2e2 1.6px solid; */
     /* background-color: #f3f3f3; */
-    width: 26rem;
-    height: 26rem;
+    width: 24rem;
+    height: 24rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -525,17 +547,25 @@ nav{
 .suggestionCards{
     width: 60%;
     /* border: green solid; */
+    gap: 1rem;
     display: flex;
     justify-content: space-between;
 }
 .suggestionCard{
+    padding: .5rem .5rem 0 .5rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* border: solid #e70707 2px; */
     border: solid #a8a7a7 2px;
     width: 10rem;
     height: 3rem;
     border-radius: 50px;
+}
+
+.suggestionCard h5 {
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 .suggestionGrid{
@@ -601,9 +631,6 @@ nav{
     /* justify-content: space-between; */
 }
 
-.faqContent{
-    /* border: green solid; */
-}
 .faqContent > h2{
     margin-bottom: 4rem;
     width: 80%;
@@ -636,20 +663,20 @@ nav{
 
 .imageBox{
     width: 30rem;
-    height: 45rem;
+    height: 43rem;
     /* border: solid red; */
     z-index: 2;
     background-image: url(./images/vrGal.jpg);
     background-repeat: no-repeat;
     /* object-fit: contain; */
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-color: #cdd3e3;
     border-radius: 400px;
 }
 .borderBox{
     width: 30rem;
-    height: 43rem;
+    height: 41rem;
     margin-left: -29rem;
     margin-top: -4rem;
     /* background-color: #e1680b; */
@@ -660,25 +687,25 @@ nav{
 
 /* styling for latest */
 #latest{
-    margin-top: 8rem;
+    margin-top: 12rem;
 }
-.innerlatest{
-    /* border: red solid; */
-}
+/* .innerlatest{
+    border: red solid;
+} */
 .latestContents{
     display: flex;
     justify-content: space-between;
     align-items: start;
-    /* border: solid; */
+    /* border: solid; */ 
 }
 .latestContents > p{
     font-family: "Outfit", sans-serif;
-    width: 50rem;
+    width: 46rem;
 }
 
-.latestIcons{
-    /* border: red solid; */
-}
+/* .latestIcons{
+    border: red solid;
+} */
 .latestIcons > span > i{
     font-size: 40px;
 }
@@ -688,7 +715,7 @@ nav{
 
 .latestCards{
     width: 100%;
-    height: fit-content;
+    /* height: fit-content; */
     /* border: green solid; */
     margin-top: 5rem;
     display: flex;
@@ -699,7 +726,7 @@ nav{
 .latestCard{
     /* border: solid red; */
     width: 90%;
-    height: 70vh;
+    height: 60vh;
 }
 .latestCard > img{
     width: 100%;
@@ -855,6 +882,7 @@ footer{
     width: 35%;
 }
 .footerRight > h4{
+    font-size: 1.5rem;
     width: 20rem;
     color: #e1680b;
 }
@@ -883,7 +911,7 @@ footer{
     background-color: black;
     position: absolute;
     top: 0;
-    margin-left: 28rem;
+    margin-left: 23rem;
     margin-top: 0.7rem;
     border: none;
     padding: .5rem;
