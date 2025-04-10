@@ -983,53 +983,7 @@ footer{
 
 
 /* media query for desktop */
-@media (min-width: 1201px) {
-    .genLayout1{
-        max-width: 1400px;
-        margin:  auto;
-        /* border: red 2px solid; */
-    }
 
-    .innerHero{
-        margin: auto;
-        max-width: 80%;
-        /* border: blue solid; */
-    }
-
-    /* .heroContents > p{
-        font-family: "Outfit", sans-serif;
-        line-height: 24px;
-        font-weight: 600;
-        width: 50%;
-        padding-block: 1.5rem;
-    } */
-    .heroContents > h1{
-        line-height: 50px;
-        text-transform: uppercase;
-        padding-top: .5rem;
-        font-weight: 700;
-        width: 60%;
-        font-size: 2rem;
-    }
-    
-    .brandCard{
-        /* border: red solid 2px; */
-        /* border: #e3e2e2 1.6px solid; */
-        /* background-color: #f3f3f3; */
-        width: 28rem;
-        height: 28rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .innerBanner{
-        padding-inline: 32px 40px;
-        /* border: red solid; */
-    }
-
-}
 
 
 
