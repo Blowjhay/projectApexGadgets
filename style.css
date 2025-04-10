@@ -15,20 +15,11 @@
     margin:  auto;
     /* border: red 2px solid; */
 }
-/* .genLayout1{
-    max-width: min(1400px, 95%);
-  margin: 0 auto;
-} */
 
 nav{
     background-color: #000;
     padding-block: 1rem;
 }
-
-/* .genLayout1 {
-    margin: auto;
-    max-width: 95%;
-} */
 
 .innerNav{
     /* border: solid red; */
@@ -88,6 +79,7 @@ nav{
     /* border: rgb(8, 0, 255) solid ; */
     width: 100%;
 }
+ 
 .search > input{
     height: 45px;
     width: 100%;
@@ -983,7 +975,12 @@ footer{
 
 
 /* media query for desktop */
-
+@media (min-width: 1400px) {
+    .genLayout1{
+        max-width: 1320px;
+        margin: auto;
+    }
+}
 
 
 
