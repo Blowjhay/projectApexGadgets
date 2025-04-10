@@ -1011,12 +1011,18 @@ footer{
         width: 60%;
         font-size: 2rem;
     }
-    /* .heroContents > h5{
-        font-family: "Outfit", sans-serif;
-        font-weight: 400;
-        font-size: 1rem;
-        letter-spacing: 2px;
-    } */
+    
+    .brandCard{
+        /* border: red solid 2px; */
+        /* border: #e3e2e2 1.6px solid; */
+        /* background-color: #f3f3f3; */
+        width: 28rem;
+        height: 28rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
 
 }
 
