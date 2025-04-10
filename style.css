@@ -985,10 +985,16 @@ footer{
         width: 60%;
     }
 
+    .categories{
+        width: 100%;
+        /* border: rgb(255, 0, 0) solid; */
+        gap: .5rem;
+    }
+
     .cardStyle{
         /* border: red solid; */
         width: 12rem;
-        height: 23rem;
+        height: 25rem;
         border-radius: 150px 150px;
     }
     
@@ -999,7 +1005,7 @@ footer{
     .categoryCard3{
         border-radius: 150px 150px;
         width: 17rem;
-        height: 27rem;
+        height: 29rem;
     }
 
 }
