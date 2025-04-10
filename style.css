@@ -377,7 +377,7 @@ nav{
 } */
 .innerBanner{
     padding-inline: 32px;
-    border: red solid;
+    /* border: red solid; */
 }
 
 .upInnerBanner {
@@ -457,6 +457,11 @@ nav{
     flex-direction: column;
     align-items: center;
 }
+
+.innerDeals > .productCards {
+    margin-bottom: 0;
+}
+
 .dealArrowbox{
     /* border: blue solid; */
     width: 22%;
@@ -1010,6 +1015,11 @@ footer{
         margin-bottom: 10rem;
         /* max-width: 87%; */
         /* border: rgb(0, 255, 89) solid; */
+    }
+
+    .inputBttn > button{
+        margin-left: 24rem;
+        margin-top: 0.7rem;
     }
 
 }
