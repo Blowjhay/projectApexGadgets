@@ -996,12 +996,14 @@ footer{
     width: 15rem;
     height: 25rem;
     border-radius: 150px 150px;
+    gap: 6rem;
 }
 
 .categoryCard3{
     border-radius: 150px 150px;
     width: 17rem;
     height: 29rem;
+    gap: 4rem;
 }
 
 }
