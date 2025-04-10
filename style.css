@@ -985,6 +985,23 @@ footer{
         width: 60%;
     }
 
+    .cardStyle{
+        /* border: red solid; */
+        width: 12rem;
+        height: 23rem;
+        border-radius: 150px 150px;
+    }
+    
+    .cardStyle h4 {
+        font-size: 1.3rem;
+    }
+    
+    .categoryCard3{
+        border-radius: 150px 150px;
+        width: 17rem;
+        height: 27rem;
+    }
+
 }
 
 
