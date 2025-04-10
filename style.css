@@ -1025,7 +1025,7 @@ footer{
     }
 
     .innerBanner{
-        padding-inline: 40px;
+        padding-inline: 32px 40px;
         /* border: red solid; */
     }
 
