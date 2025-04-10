@@ -377,7 +377,7 @@ nav{
 } */
 .innerBanner{
     padding-inline: 32px;
-    /* border: red solid; */
+    border: red solid;
 }
 
 .upInnerBanner {
@@ -992,19 +992,25 @@ footer{
     }
 
     .cardStyle{
-    /* border: red solid; */
-    width: 15rem;
-    height: 25rem;
-    border-radius: 150px 150px;
-    gap: 6rem;
-}
+        /* border: red solid; */
+        width: 15rem;
+        height: 25rem;
+        border-radius: 150px 150px;
+        gap: 6rem;
+    }
 
-.categoryCard3{
-    border-radius: 150px 150px;
-    width: 17rem;
-    height: 29rem;
-    gap: 4rem;
-}
+    .categoryCard3{
+        border-radius: 150px 150px;
+        width: 17rem;
+        height: 29rem;
+        gap: 4rem;
+    }
+
+    .innerProducts{
+        margin-bottom: 20rem;
+        /* max-width: 87%; */
+        /* border: rgb(0, 255, 89) solid; */
+    }
 
 }
 
