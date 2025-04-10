@@ -1017,6 +1017,10 @@ footer{
         /* border: rgb(0, 255, 89) solid; */
     }
 
+    .brandCards{
+        gap: .5rem;
+    }
+
     .brandCard{
         width: 25rem;
         height: 25rem;
