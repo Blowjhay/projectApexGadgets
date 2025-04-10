@@ -1024,6 +1024,11 @@ footer{
         align-items: center;
     }
 
+    .innerBanner{
+        padding-inline: 40px;
+        /* border: red solid; */
+    }
+
 }
 
 
