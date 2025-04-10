@@ -982,7 +982,21 @@ footer{
 
 
 
+/* media query for desktop */
+@media (min-width: 1201px) {
+    .genLayout1{
+        max-width: 1400px;
+        margin:  auto;
+        /* border: red 2px solid; */
+    }
 
+    .innerHero{
+        margin: auto;
+        max-width: 90%;
+        /* border: blue solid; */
+    }
+
+}
 
 
 
