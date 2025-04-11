@@ -11,9 +11,9 @@
 }
 
 .genLayout1{
+    /* border: red 2px solid; */
     max-width: 1200px;
     margin:  auto;
-    /* border: red 2px solid; */
 }
 
 nav{
@@ -43,12 +43,10 @@ nav{
 }
 
 .navRight{
-    /* padding-top: 1rem; */
     /* border: blue 1px solid; */
     display: flex;
     justify-content: space-between;
     width: 60%;
-    /* gap: 200px; */
 }
 .navLinks{
     display: flex;
@@ -62,21 +60,20 @@ nav{
     display: flex;
     align-items: center;
     gap: .5rem;
-    /* font-weight: bold; */
 }
 .navLinks > a:nth-child(1){
     color: #ce7407;
 }
 .searchBtn{
+    /* border: red solid; */
     display: flex;
     align-items: center;
     gap: .8rem;
-    /* border: red solid; */
     width: 50%;
 }
 .search{
-    display: flex;
     /* border: rgb(8, 0, 255) solid ; */
+    display: flex;
     width: 100%;
 }
  
@@ -112,8 +109,8 @@ nav{
 }
 
 #hero{
-    height: 80vh;
     /* border: red solid; */
+    height: 80vh;
     display: flex;
     align-items: center;
     background-image: url(./images/heroImage.png);
@@ -123,9 +120,9 @@ nav{
 }
 
 .innerHero{
+    /* border: blue solid; */
     margin: auto;
     max-width: 80%;
-    /* border: blue solid; */
 }
 .heroContents > p{
     font-family: "Outfit", sans-serif;
@@ -150,22 +147,16 @@ nav{
 }
 .navButton{
     color: #fff;
-    /* width: 3rem;
-    height: 1.5rem; */
     border: none;
     background-color: #e1680b;
     padding: 16px 36px;
     border-radius: 50px;
 }
 
-/* styling for section category */
-/* #category{
-    border: rgb(219, 15, 25) solid;
-} */
 .innerCategory{
+    /* border: rgb(0, 255, 89) solid; */
     margin: 10rem auto;
     max-width: 87%;
-    /* border: rgb(0, 255, 89) solid; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -173,11 +164,9 @@ nav{
 }
 
 .h2Style{
-    /* line-height: 50px; */
     text-transform: uppercase;
     padding-top: .5rem;
     font-weight: 700;
-    /* width: 100%; */
     font-size: 1.6rem;
 }
 .pStyle{
@@ -190,8 +179,8 @@ nav{
 }
 
 .categories{
-    width: 100%;
     /* border: rgb(255, 0, 0) solid; */
+    width: 100%;
     display: flex;
     gap: 1.2rem;
     justify-content: space-between;
@@ -267,14 +256,9 @@ nav{
     object-fit: contain;
 }
 
-/* styling for products section*/
-/* #products {
-    border: rgb(255, 64, 0) solid;
-} */
 .innerProducts{
-    margin-bottom: 10rem;
-    /* max-width: 87%; */
     /* border: rgb(0, 255, 89) solid; */
+    margin-bottom: 10rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -302,9 +286,9 @@ nav{
 }
 
 .productCards{
+    /* border: rgb(255, 38, 0) solid; */
     width: 100%;
     align-items: center;
-    /* border: rgb(255, 38, 0) solid; */
     display: flex;
     justify-content: space-between;
     margin-bottom: 5rem;
@@ -334,8 +318,8 @@ nav{
 }
 
 .productDetails{
-    background-color: #fff;
     /* border: green solid; */
+    background-color: #fff;
     height: 30%;
     padding: 1rem 1rem 4rem 1rem;
 }
@@ -350,12 +334,11 @@ nav{
     font-weight: 600;
 }
 .price{
+    /* border: solid; */
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    /* justify-content: space-a; */
     margin-block: .7rem;
-    /* border: solid; */
 }
 .price > h6{
     font-family: "Outfit", sans-serif;
@@ -371,13 +354,9 @@ nav{
 }
 
 /* styling for section banner */
-
-/* #banner{
-    max-width: 100%;
-} */
 .innerBanner{
-    padding-inline: 32px;
     /* border: red solid; */
+    padding-inline: 32px;
 }
 
 .upInnerBanner {
@@ -388,28 +367,28 @@ nav{
 }
 
 .banner1{
+    /* border: rgb(43, 0, 255) solid;  */
     background: linear-gradient( #f3f3f3 60%, #2c2c2c 40%);
     position: relative;
     top: 0;
     padding: 2rem 0 0 2rem;
-    /* border: rgb(43, 0, 255) solid;  */
     width: 50%;
     height: 30rem;
 }
 .banner2{
+    /* border: rgb(43, 0, 255) solid; */
     background: linear-gradient( #f3f3f3 60%, #2c2c2c 40%);
     position: relative;
     padding: 2rem 0 0 2rem;
-    /* border: rgb(43, 0, 255) solid; */
     width: 50%;
     height: 30rem;
 }
 .banner3{
+    /* border: rgb(43, 0, 255) solid; */
     background: linear-gradient( #f3f3f3 60%, #2c2c2c 40%);
     position: relative;
     padding: 2rem 0 0 2rem;
     margin-top: 1rem;
-    /* border: rgb(43, 0, 255) solid; */
     width: 100%;
     height: 30rem;
 }
@@ -433,13 +412,13 @@ nav{
 }
 
 .bannerImage{
+    /* border: green solid; */
     border: #e3dede 2.3px solid;
     background: #f3f3f3;
     position: absolute;
     top: 0;
     margin-left: 17rem;
     margin-top: 6rem;
-    /* border: green solid; */
     width: 18rem;
     height: 18rem;
     display: flex;
@@ -448,11 +427,9 @@ nav{
 }
 
 /* styling for section deals */
-
 .innerDeals{
-    margin: 8rem 0;
-    /* max-width: 87%; */
     /* border: rgb(0, 255, 89) solid; */
+    margin: 8rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -482,8 +459,8 @@ nav{
 
 /* styling for brand */
 .innerBrand{
-    margin-bottom: 8rem;
     /* border: solid; */
+    margin-bottom: 8rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -495,17 +472,15 @@ nav{
 }
 
 .brandCards{
+    /* border: solid red 2px; */
     display: flex;
     justify-content: space-between;
     gap: 1rem;
-    /* border: solid red 2px; */
     width: 100%;
 }
 
 .brandCard{
-    /* border: red solid 2px; */
     /* border: #e3e2e2 1.6px solid; */
-    /* background-color: #f3f3f3; */
     width: 24rem;
     height: 24rem;
     display: flex;
@@ -527,14 +502,11 @@ nav{
     height: 12rem;
 }
 
-
 /* styling for suggestion section */
 #suggestion{
     margin-block: 8rem;
 }
-/* .innerSuggestion{
-    border: red solid;
-} */
+
 .suggestionBox{
     /* border: red solid; */
     display: flex;
@@ -573,10 +545,6 @@ nav{
     gap: 1.5rem;
 }
 
-/* .suggestionItems{
-    border: green solid 2px;
-} */
-
 .suggestionItem{
     width: 100%;
     height: 8rem;
@@ -584,7 +552,6 @@ nav{
     display: flex;
     gap: 1.5rem;
     margin-top: 1.5rem;
-    /* align-items: center; */
 }
 
 .itemImage{
@@ -594,7 +561,6 @@ nav{
     padding: 8px;
 }
 .itemText{
-    /* font-family: "Outfit", sans-serif; */
     /* border: solid; */
     width: 100%;
     display: flex;
@@ -615,7 +581,6 @@ nav{
 }
 
 /* styling for faq */
-
 #faq{
     margin-top: 8rem;
 }
@@ -625,7 +590,6 @@ nav{
     display: grid;
     grid-template-columns: 2fr 2fr;
     gap: 5rem;
-    /* justify-content: space-between; */
 }
 
 .faqContent > h2{
@@ -648,14 +612,11 @@ nav{
     color: #e1680b;
 }
 
-
 .faqImageBox{
     display: flex;
     align-items: center;
     justify-content: center;
     /* border: solid; */
-    /* width: 30rem; */
-    /* height: 20rem; */
 }
 
 .imageBox{
@@ -665,7 +626,6 @@ nav{
     z-index: 2;
     background-image: url(./images/vrGal.jpg);
     background-repeat: no-repeat;
-    /* object-fit: contain; */
     background-position: center;
     background-size: cover;
     background-color: #cdd3e3;
@@ -681,14 +641,11 @@ nav{
     border-radius: 250px;
 }
 
-
 /* styling for latest */
 #latest{
     margin-top: 12rem;
 }
-/* .innerlatest{
-    border: red solid;
-} */
+
 .latestContents{
     display: flex;
     justify-content: space-between;
@@ -700,9 +657,6 @@ nav{
     width: 46rem;
 }
 
-/* .latestIcons{
-    border: red solid;
-} */
 .latestIcons > span > i{
     font-size: 40px;
 }
@@ -712,12 +666,9 @@ nav{
 
 .latestCards{
     width: 100%;
-    /* height: fit-content; */
-    /* border: green solid; */
     margin-top: 5rem;
     display: flex;
     justify-content: space-between;
-    /* grid-template-columns: 1fr 1fr 1fr; */
     gap: 1.5rem;
 }
 .latestCard{
@@ -749,7 +700,6 @@ nav{
 
 
 /* styling for perks */
-
 #perks{
     margin-top: 6rem;
 }
@@ -813,7 +763,6 @@ nav{
 
 
 /* styling for footer */
-
 footer{
     padding-top: 6rem;
     background-color: #000;
@@ -823,7 +772,6 @@ footer{
     /* border: green solid; */
     display: flex;
     justify-content: space-between;
-    /* padding: 30px 150px 60px 60px; */
     justify-content: space-between;
 }
 
@@ -932,26 +880,6 @@ footer{
     justify-content: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .copyright{
     padding-block: 20px;
     justify-content: center;
@@ -967,18 +895,6 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* media query for desktop */
 @media (min-width: 1400px) {
     .genLayout1{
@@ -991,8 +907,8 @@ footer{
     }
 
     .categories{
-        width: 100%;
         /* border: rgb(255, 0, 0) solid; */
+        width: 100%;
         gap: .5rem;
     }
 
@@ -1012,9 +928,8 @@ footer{
     }
 
     .innerProducts{
-        margin-bottom: 10rem;
-        /* max-width: 87%; */
         /* border: rgb(0, 255, 89) solid; */
+        margin-bottom: 10rem;
     }
 
     .brandCards{
@@ -1034,15 +949,7 @@ footer{
 }
 
 
-
-
-
-
-
-
-
-
-/* media query */
+/* media query for mobile*/
 @media (min-width: 260px) and ( max-width: 420px) {
 
     .hamburger{
@@ -1078,9 +985,9 @@ footer{
     }
 
     .innerHero{
+        /* border: blue solid; */
         /* margin: auto; */
         max-width: 90%;
-        /* border: blue solid; */
     }
 
     .heroContents > p{
