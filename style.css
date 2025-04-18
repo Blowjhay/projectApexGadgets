@@ -71,6 +71,7 @@ nav{
     gap: .8rem;
     width: 50%;
 }
+
 .search{
     /* border: rgb(8, 0, 255) solid ; */
     display: flex;
@@ -103,6 +104,11 @@ nav{
     padding: 10px 12px;
     border-radius: 50px;
 }
+
+.navBtn:hover{
+    background-color: #d67023;
+}
+
 .navBtn > i{
     color: #fff;
     font-size: 16px;
@@ -151,6 +157,10 @@ nav{
     background-color: #e1680b;
     padding: 16px 36px;
     border-radius: 50px;
+}
+
+.navButton:hover{
+    background-color: #d67023;
 }
 
 .innerCategory{
@@ -496,10 +506,10 @@ nav{
 }
 
 #saleBanner{
-    margin-block: 4rem;
-    border: solid red;
-    /* width: 100%; */
-    height: 12rem;
+    /* margin-block: 4rem; */
+    /* border: solid red; */
+    width: 100%;
+    height: 14rem;
 }
 
 /* styling for suggestion section */
@@ -764,12 +774,14 @@ nav{
 
 /* styling for footer */
 footer{
+    position: relative;
     padding-top: 6rem;
     background-color: #000;
 }
 
 .innerFooter{
     /* border: green solid; */
+    padding-bottom: 5rem;
     display: flex;
     justify-content: space-between;
     justify-content: space-between;
@@ -881,7 +893,9 @@ footer{
 }
 
 .copyright{
-    padding-block: 20px;
+    width: 94%;
+    padding-block: 20px 28px;
+    border-top: solid 1px #a8a7a7;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -893,6 +907,28 @@ footer{
     font-size: 12px;
 }
 
+.footerBtn{
+    /* width: 60px;
+    height: 60px; */
+    color: #fff;
+    border: none;
+    background-color: #e1680b;
+    padding: 20px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    margin-left: 27rem;
+    margin-top: 24.2rem;
+
+}
+
+.footerBtn > i{
+   font-size: 28px;
+}
 
 
 /* media query for desktop */
