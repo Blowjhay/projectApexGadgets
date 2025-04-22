@@ -969,7 +969,7 @@ footer{
     }
 
     .innerBrand{
-        /* border: solid red 2px; */
+        border: solid red 2px;
         margin-bottom: 16rem;
         /* display: flex;
         flex-direction: column;
