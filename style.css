@@ -968,6 +968,11 @@ footer{
         margin-bottom: 10rem;
     }
 
+    .innerBrand{
+        /* border: solid red 2px; */
+        margin-bottom: 8rem;
+    }
+
     .brandCards{
         gap: .5rem;
     }
